@@ -1,10 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "../../assets/react.svg";
+import viteLogo from "/vite.svg";
+
+import "./App.css";
+import Main from "../Main/Main.jsx";
+import Header from "../Header/Header.jsx";
+import AboutMe from "../AboutMe/AboutMe.jsx";
+import Projects from "../Projects/Projects.jsx";
+import Skills from "../Skills/Skills.jsx";
+import Blog from "../Blog/Blog.jsx";
+import Contact from "../Contact/Contact.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -29,7 +38,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
