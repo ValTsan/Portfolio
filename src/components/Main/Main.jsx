@@ -1,20 +1,29 @@
 import React from "react";
 import "./Main.css";
 import { FaGithub } from "react-icons/fa";
-import { FaGitHub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import Headshot from "../../../public/headshot.jpeg";
 
 function Main() {
   return (
     <section className="main">
       <div className="main__content">
-        <div className="main__image"></div>
+        <img src={Headshot} alt="Valerie Tsan" className="main__image" />
         <h1 className="main__title">Hello I'm Valerie</h1>
-        <p className="main__subtitle">Software Engineer</p>
         <p className="main__description">
-          I am a software engineer with a passion for building web applications.
-          I love creating user-friendly interfaces and solving complex problems.
+          I build clean, functional web applications and care deeply about
+          thoughtful design. I like solving problems that actually matter—and
+          keeping things simple for the people using them.
         </p>
-        <div className="main__hero-socials"></div>
+        <div className="main__socials">
+          <a
+            href="https://github.com/ValTsan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+        </div>
       </div>
     </section>
   );
