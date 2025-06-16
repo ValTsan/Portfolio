@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import Headshot from "../../../public/headshot.jpeg";
 
 function Main() {
@@ -22,6 +22,20 @@ function Main() {
             rel="noopener noreferrer"
           >
             <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/valerietsan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://www.youtube.com/@ValerieTsan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube />
           </a>
         </div>
       </div>
