@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
 import Headshot from "../../../public/headshot.jpeg";
 
 function Main() {
@@ -9,9 +9,9 @@ function Main() {
     <section className="main">
       <div className="main__content">
         <img src={Headshot} alt="Valerie Tsan" className="main__image" />
-        <h1 className="main__title">Hello I'm Valerie</h1>
+        <h1 className="main__title">Hello, I'm Valerie</h1>
         <p className="main__description">
-          I build clean, functional web applications and care deeply about
+          Hi, I build clean, functional web applications and care deeply about
           thoughtful design. I like solving problems that actually matter—and
           keeping things simple for the people using them.
         </p>
@@ -36,6 +36,21 @@ function Main() {
             rel="noopener noreferrer"
           >
             <FaYoutube />
+          </a>
+          <a
+            href="https://www.instagram.com/_helloval/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram />
+          </a>
+        </div>
+        <div className="main__buttons">
+          <a href="/projects" className="main__buttons-projects">
+            View My Work
+          </a>
+          <a href="/contact" className="main__buttons-contact">
+            Get In Touch
           </a>
         </div>
       </div>
