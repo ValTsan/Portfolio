@@ -11,9 +11,9 @@ function Main() {
         <img src={Headshot} alt="Valerie Tsan" className="main__image" />
         <h1 className="main__title">Hello, I'm Valerie</h1>
         <p className="main__description">
-          Hi, I build clean, functional web applications and care deeply about
-          thoughtful design. I like solving problems that actually matter—and
-          keeping things simple for the people using them.
+          Hey, I'm Valerie. I'm a software engineer who likes keeping things
+          simple—clean UI, thoughtful design, and code that just makes sense.
+          This is my portfolio, and a peek into what I've been building.
         </p>
         <div className="main__socials">
           <a

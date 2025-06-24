@@ -1,20 +1,54 @@
+import newsExplorerImg from "../assets/NewsExplorer.png";
+import wtwrImg from "../assets/wtwr.png";
+import aroundTheUSImg from "../assets/AroundTheUS.png";
+
 const projects = [
   {
-    title: "Project One",
-    description: "This is a brief description of Project One.",
-    image: "path/to/image1.jpg",
-    link: "",
+    title: "News Explorer App",
+    description:
+      "The idea of the project is to make a call to a public news API, which responds with news articles relevant to a topic chosen by the user from the last week. Users can save articles they like, try various different topics, and collect their favorite news on one page.",
+    tech: ["React", "Redux", "Tailwind CSS"],
+    image: newsExplorerImg,
+    link: "https://valtsan.github.io/News-Explorer/",
   },
   {
-    title: "Project One",
-    description: "This is a brief description of Project One.",
-    image: "path/to/image1.jpg",
-    link: "",
+    title: "WTWR (What to Wear?): Back End",
+    description:
+      "The idea of the application is pretty simple - we make a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.",
+    tech: [
+      "Javascript",
+      "React",
+      "Node.js & Express ",
+      "MongoDB",
+      "HTML",
+      "CSS",
+    ],
+    image: wtwrImg,
+    link: "https://github.com/ValTsan/se_project_express",
   },
   {
-    title: "Project One",
-    description: "This is a brief description of Project One.",
-    image: "path/to/image1.jpg",
-    link: "",
+    title: "WTWR (What to Wear?): Front End",
+    description:
+      "The idea of the application is pretty simple - we make a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.",
+    tech: [
+      "Javascript",
+      "React",
+      "Node.js & Express ",
+      "MongoDB",
+      "HTML",
+      "CSS",
+    ],
+    image: wtwrImg,
+    link: "https://www.what2wear-project.jumpingcrab.com",
+  },
+  {
+    title: "Around the U.S. App",
+    description:
+      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
+    tech: ["HTML", "CSS"],
+    image: aroundTheUSImg,
+    link: "https://valtsan.github.io/se_project_aroundtheus/",
   },
 ];
+
+export default projects;
