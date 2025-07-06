@@ -1,6 +1,7 @@
 import newsExplorerImg from "../assets/NewsExplorer.png";
 import wtwrImg from "../assets/wtwr.png";
 import aroundTheUSImg from "../assets/AroundTheUS.png";
+import triplePeaksCoffeeImg from "../assets/InsideCoffeeShop.png";
 
 const projects = [
   {
@@ -50,28 +51,12 @@ const projects = [
     link: "https://valtsan.github.io/se_project_aroundtheus/",
   },
   {
-    title: "Around the U.S. App",
+    title: "Triple Peaks Coffee Shop",
     description:
-      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
+      "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.",
     tech: ["HTML", "CSS"],
-    image: aroundTheUSImg,
-    link: "https://valtsan.github.io/se_project_aroundtheus/",
-  },
-  {
-    title: "Around the U.S. App",
-    description:
-      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
-    tech: ["HTML", "CSS"],
-    image: aroundTheUSImg,
-    link: "https://valtsan.github.io/se_project_aroundtheus/",
-  },
-  {
-    title: "Around the U.S. App",
-    description:
-      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
-    tech: ["HTML", "CSS"],
-    image: aroundTheUSImg,
-    link: "https://valtsan.github.io/se_project_aroundtheus/",
+    image: triplePeaksCoffeeImg,
+    link: "https://github.com/ValTsan/se_project_coffeeshop",
   },
 ];
 

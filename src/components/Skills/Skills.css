@@ -1,0 +1,72 @@
+.skills {
+  padding: 60px 20px;
+  background: #f6f9f6;
+}
+
+.skills__title {
+  font-family: "Roboto-slab", Georgia, serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+  padding: 24px 20px 24px;
+  margin: 0;
+  color: #1a1b22;
+}
+
+.skills__content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 20px 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.skills__grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.skills__subtitle {
+  font-family: "Roboto", Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  padding: 30px 0 30px;
+  margin: 0;
+}
+
+.skills__tags {
+  font-family: "Roboto-slab", Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: #b4dab6;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  color: #1c1c1c;
+}
+
+.skills-tag:hover {
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
