@@ -37,6 +37,11 @@ function Projects() {
           </div>
         ))}
       </div>
+      <div className="project__buttons">
+        <a href="/projects" className="project__buttons-projects">
+          View All Projects
+        </a>
+      </div>
     </section>
   );
 }
