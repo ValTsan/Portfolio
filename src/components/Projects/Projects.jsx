@@ -1,7 +1,10 @@
+import { useState } from "react";
 import "./Projects.css";
 import projects from "../../utils/projectsData";
 
 function Projects() {
+  const [showAll, setShowAll] = useState(false);
+
   return (
     <section className="projects">
       <div className="projects__title">My Projects</div>
