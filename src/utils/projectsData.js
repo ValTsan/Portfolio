@@ -49,6 +49,30 @@ const projects = [
     image: aroundTheUSImg,
     link: "https://valtsan.github.io/se_project_aroundtheus/",
   },
+  {
+    title: "Around the U.S. App",
+    description:
+      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
+    tech: ["HTML", "CSS"],
+    image: aroundTheUSImg,
+    link: "https://valtsan.github.io/se_project_aroundtheus/",
+  },
+  {
+    title: "Around the U.S. App",
+    description:
+      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
+    tech: ["HTML", "CSS"],
+    image: aroundTheUSImg,
+    link: "https://valtsan.github.io/se_project_aroundtheus/",
+  },
+  {
+    title: "Around the U.S. App",
+    description:
+      "Around The U.S. is a responsive web project designed to display various elements correctly across popular screen sizes. This project is part of a learning exercise aimed at enhancing skills in responsive design and front-end development. It is recommended to invest more time in completing this project, as it presents more complexity than previous exercises.",
+    tech: ["HTML", "CSS"],
+    image: aroundTheUSImg,
+    link: "https://valtsan.github.io/se_project_aroundtheus/",
+  },
 ];
 
 export default projects;

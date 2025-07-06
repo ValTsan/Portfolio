@@ -2,7 +2,7 @@ import React from "react";
 import "./Main.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa";
-import Headshot from "../../../public/headshot.jpeg";
+import Headshot from "/headshot.jpeg";
 
 function Main() {
   return (

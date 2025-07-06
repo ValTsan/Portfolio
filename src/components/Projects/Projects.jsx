@@ -5,11 +5,13 @@ import projects from "../../utils/projectsData";
 function Projects() {
   const [showAll, setShowAll] = useState(false);
 
+  const visibleProjects = showAll ? projects : projects.slice(0, 4);
+
   return (
     <section className="projects">
       <div className="projects__title">My Projects</div>
       <div className="projects__grid">
-        {projects.map((project, index) => (
+        {visibleProjects.map((project, index) => (
           <div className="project__card" key={index}>
             <img
               src={project.image}
@@ -40,10 +42,14 @@ function Projects() {
           </div>
         ))}
       </div>
+
       <div className="project__buttons">
-        <a href="/projects" className="project__buttons-projects">
-          View All Projects
-        </a>
+        <button
+          className="project__buttons-projects"
+          onClick={() => setShowAll(!showAll)}
+        >
+          {showAll ? "Show Less" : "View All Projects"}
+        </button>
       </div>
     </section>
   );
