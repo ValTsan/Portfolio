@@ -23,12 +23,12 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="/skills" className="header__button-projects">
+              <a href="/skills" className="header__button-skills">
                 Skills
               </a>
             </li>
             <li>
-              <a href="/contact" className="header__button-projects">
+              <a href="/contact" className="header__button-contact">
                 Contact
               </a>
             </li>
