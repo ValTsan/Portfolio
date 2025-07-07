@@ -61,17 +61,19 @@
   color: #4b5563;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .footer {
-    padding: 10px 20px;
+    padding: 20px;
   }
 
   .footer__name {
     font-size: 30px;
+    margin: 20px 0 10px;
   }
 
   .footer__role {
     font-size: 15px;
+    margin: 10px 0;
   }
   .footer__nav-list {
     font-size: 13px;
