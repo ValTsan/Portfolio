@@ -5,6 +5,10 @@ import "./Header.css";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="header__nav-bar">
@@ -55,27 +59,27 @@ function Header() {
         <nav className="header__mobile-nav">
           <ul className="header__mobile-list">
             <li>
-              <a href="/" className="header__button-home">
+              <a href="/" onClick={handleLinkClick}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="header__button-saved">
+              <a href="#about" onClick={handleLinkClick}>
                 About
               </a>
             </li>
             <li>
-              <a href="#projects" className="header__button-projects">
+              <a href="#projects" onClick={handleLinkClick}>
                 Projects
               </a>
             </li>
             <li>
-              <a href="#skills" className="header__button-skills">
+              <a href="#skills" onClick={handleLinkClick}>
                 Skills
               </a>
             </li>
             <li>
-              <a href="#contact" className="header__button-contact">
+              <a href="#contact" onClick={handleLinkClick}>
                 Contact
               </a>
             </li>

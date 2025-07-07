@@ -16,25 +16,25 @@ function Footer() {
           </li>
 
           <li>
-            <a href="/about" className="footer__button-saved">
+            <a href="#about" className="footer__button-saved">
               About
             </a>
           </li>
 
           <li>
-            <a href="/projects" className="footer__button-projects">
+            <a href="#projects" className="footer__button-projects">
               Projects
             </a>
           </li>
 
           <li>
-            <a href="/skills" className="footer__button-skills">
+            <a href="#skills" className="footer__button-skills">
               Skills
             </a>
           </li>
 
           <li>
-            <a href="/contact" className="footer__button-contact">
+            <a href="#contact" className="footer__button-contact">
               Contact
             </a>
           </li>
