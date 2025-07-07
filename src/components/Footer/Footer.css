@@ -60,3 +60,24 @@
   font-size: 14px;
   color: #4b5563;
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px 20px;
+  }
+
+  .footer__name {
+    font-size: 30px;
+  }
+
+  .footer__role {
+    font-size: 15px;
+  }
+  .footer__nav-list {
+    font-size: 13px;
+  }
+
+  .footer__bottom {
+    justify-content: center;
+  }
+}

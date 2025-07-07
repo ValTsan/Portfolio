@@ -75,3 +75,9 @@
 .contact__note {
   font-family: "Roboto-slab", Georgia, serif;
 }
+
+@media (max-width: 480px) {
+  .contact__label {
+    width: 100%;
+  }
+}

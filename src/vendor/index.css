@@ -1,5 +1,16 @@
 @import "normalize.css";
 @import "../vendor/fonts/fonts.css";
-/* * {
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
   outline: 1px solid red;
-} */
+}
