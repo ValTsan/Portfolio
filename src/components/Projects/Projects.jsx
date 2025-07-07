@@ -8,7 +8,7 @@ function Projects() {
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <div className="projects__title">My Projects</div>
       <div className="projects__grid">
         {visibleProjects.map((project, index) => (

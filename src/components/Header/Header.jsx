@@ -23,22 +23,22 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="/about" className="header__button-saved">
+              <a href="#about" className="header__button-saved">
                 About
               </a>
             </li>
             <li>
-              <a href="/projects" className="header__button-projects">
+              <a href="#projects" className="header__button-projects">
                 Projects
               </a>
             </li>
             <li>
-              <a href="/skills" className="header__button-skills">
+              <a href="#skills" className="header__button-skills">
                 Skills
               </a>
             </li>
             <li>
-              <a href="/contact" className="header__button-contact">
+              <a href="#contact" className="header__button-contact">
                 Contact
               </a>
             </li>
@@ -64,22 +64,22 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="/about" onClick={handleLinkClick}>
+              <a href="#about" onClick={handleLinkClick}>
                 About
               </a>
             </li>
             <li>
-              <a href="/projects" onClick={handleLinkClick}>
+              <a href="#projects" onClick={handleLinkClick}>
                 Projects
               </a>
             </li>
             <li>
-              <a href="/skills" onClick={handleLinkClick}>
+              <a href="#skills" onClick={handleLinkClick}>
                 Skills
               </a>
             </li>
             <li>
-              <a href="/contact" onClick={handleLinkClick}>
+              <a href="#contact" onClick={handleLinkClick}>
                 Contact
               </a>
             </li>
