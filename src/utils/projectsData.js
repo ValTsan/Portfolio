@@ -2,8 +2,17 @@ import newsExplorerImg from "../assets/NewsExplorer.png";
 import wtwrImg from "../assets/wtwr.png";
 import aroundTheUSImg from "../assets/AroundTheUS.png";
 import triplePeaksCoffeeImg from "../assets/InsideCoffeeShop.png";
+import dayTripprImg from "../assets/DayTrippr.png";
 
 const projects = [
+  {
+    title: "DayTrippr Sighteeing Roadtrips",
+    description:
+      "Built an interactive MVP. A data-driven travel planner that maps out iconic U.S. Landmarks based on popularity, photos, and reviews",
+    tech: ["React", "Mapbox", "JSON Data"],
+    image: dayTripprImg,
+    link: "https://daytrippr.netlify.app/",
+  },
   {
     title: "News Explorer App",
     description:
