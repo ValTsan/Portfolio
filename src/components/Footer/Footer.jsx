@@ -46,7 +46,7 @@ function Footer() {
       <div className="footer__bottom">
         <p>© {new Date().getFullYear()} Valerie Tsan. All rights reserved.</p>
 
-        <p>Designed with ❤️ and a cup of coffee.</p>
+        <p>Designed with lots of coffee.</p>
       </div>
     </footer>
   );
