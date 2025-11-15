@@ -11,9 +11,13 @@ function Main() {
         <img src={Headshot} alt="Valerie Tsan" className="main__image" />
         <h1 className="main__title">Hello, I'm Valerie</h1>
         <p className="main__description">
-          Hey, I'm Valerie. I'm a software engineer who likes keeping things
-          simple—clean UI, thoughtful design, and code that just makes sense.
-          This is my portfolio, and a peek into what I've been building.
+          Hey, I’m Valerie. I’m a software engineer who enjoys blending
+          technical skills with digital marketing—especially SEO, PPC, and
+          performance optimization. I love clean UI, organized systems, and
+          solving problems that improve visibility and results. I’m also
+          building AI automation workflows to make reporting, research, and
+          operations more efficient. This portfolio is a glimpse into what I’ve
+          been creating.
         </p>
         <div className="main__socials">
           <a
