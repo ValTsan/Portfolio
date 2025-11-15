@@ -52,6 +52,24 @@ function Skills() {
           </div>
 
           <div className="skills__block">
+            <h3 className="skills__subtitle">Marketing & Analytical Skills</h3>
+            <div className="skills__tags">
+              {[
+                "Google Keyword Planner",
+                "SEMrush",
+                "Google Ads (beginner)",
+                "Performance analysis",
+                "Content optimization",
+                "Internal linking strategy",
+              ].map((qualities, index) => (
+                <span className="skill-tag" key={index}>
+                  {qualities}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="skills__block">
             <h3 className="skills__subtitle">Professional Skills</h3>
             <div className="skills__tags">
               {[
