@@ -52,7 +52,7 @@ function Skills() {
           </div>
 
           <div className="skills__block">
-            <h3 className="skills__subtitle">Marketing & Analytical Skills</h3>
+            <h3 className="skills__subtitle">SEO & PPC Skills</h3>
             <div className="skills__tags">
               {[
                 "Google Keyword Planner",
