@@ -20,11 +20,7 @@ function Skills() {
                 "Git",
                 "Webpack",
                 "RESTful APIs",
-                "GitHub",
-                "Postman",
-                "VS Code",
                 "Google Cloud Platform",
-                "GitHub Pages",
                 "AI & Workflow Automation (learning)",
               ].map((skill, index) => (
                 <span className="skill-tag" key={index}>
