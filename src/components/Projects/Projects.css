@@ -5,7 +5,7 @@
 }
 
 .projects__title {
-  font-family: "Roboto-slab", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 46px;
@@ -41,7 +41,7 @@
   display: block;
 }
 .project__content {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -57,7 +57,7 @@
   justify-content: center;
   gap: 20px;
   padding: 10px;
-  font-family: "Roboto-slab", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;

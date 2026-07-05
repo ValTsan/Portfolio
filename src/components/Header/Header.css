@@ -24,7 +24,7 @@
 .header__logo {
   max-width: 608px;
   width: 100%;
-  font-family: "Roboto-slab", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 64px;
@@ -38,7 +38,7 @@
 
 .header__nav-list {
   display: flex;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   list-style: none;

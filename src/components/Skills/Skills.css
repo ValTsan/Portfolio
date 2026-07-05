@@ -4,7 +4,7 @@
 }
 
 .skills__title {
-  font-family: "Roboto-slab", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 46px;
@@ -19,7 +19,7 @@
   justify-content: center;
   gap: 20px;
   padding: 20px 20px 20px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -34,7 +34,7 @@
 }
 
 .skills__subtitle {
-  font-family: "Roboto", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 46px;
@@ -43,7 +43,7 @@
 }
 
 .skills__tags {
-  font-family: "Roboto-slab", Georgia, serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
